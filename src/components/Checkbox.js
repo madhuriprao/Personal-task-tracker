@@ -1,4 +1,4 @@
-const Checkbox = (label, value, onChange) => {
+const Checkbox = ({label, value, onChange}) => {
     return (
 <label className="checkbox-lable">
 <input type="checkbox" checked ={value} onChange = {onChange}/>

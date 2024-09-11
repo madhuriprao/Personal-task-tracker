@@ -1,6 +1,6 @@
 import Item from "./Item";
 
-const List =({todo}) => {
+const List = ({todo}) => {
     return(
         <div className="todo-list">
             {todo.map((item) => (
