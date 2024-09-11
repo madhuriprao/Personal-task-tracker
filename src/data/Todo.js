@@ -1,4 +1,4 @@
-const todoData = [
+const todoData = [ //some mock data
     {
         id : 1,
         title:"Laundry",
@@ -20,4 +20,6 @@ const todoData = [
         day:"Monday",
         done:false
     },
-]
+];
+
+export default todoData;

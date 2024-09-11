@@ -1,14 +1,17 @@
 import { useState} from "react";
 
-const Item =()=>{
-    const [title, settitle]=useState("Title");
-    const [task, setTask]=useState("Tasks");
-
+const Item = ({todo}) => {   //  Check if the todo prop is an object before accessing properties
 
     return(
         <div className="todo-card">
-            <div className="title">{title}</div>
-            <div className="task">{task}</div>
+            { todo ? (
+                <>
+            <div className="title">{todo.title}</div>
+            <div className="task">{todo.task}</div>
+            </> 
+            ) : (
+                <div>No data available</div>
+            )}
         </div>
     )
 }
