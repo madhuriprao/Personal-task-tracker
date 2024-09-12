@@ -4,7 +4,7 @@ import { useState } from "react";
 
 const Form = () => {
     return (
-        <Card>
+        <Card create={true}>
             <form>
                 <div className="form-container">
                     <h1>Add a new ToDo</h1>

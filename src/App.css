@@ -31,11 +31,16 @@ body {
     flex-direction: column;
 }
 
+h1{
+    letter-spacing: 2px;
+    font-size: 1.8rem;
+    font-weight: 500;
+}
 /* Form styles */
 .form-container {
     display: flex;
     flex-direction: column;
-    gap: 10px;
+    gap: 1rem;
 }
 
 .form-container h1 {
@@ -53,6 +58,10 @@ body {
 }
 
 /* Button Styles */
+button{
+    border:none;
+    box-shadow: none;
+}
 .btn {
     display: flex;
     align-items: center;
