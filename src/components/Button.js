@@ -2,10 +2,10 @@ import PropTypes from  "prop-types";
 import { Children } from "react";
 import {BsPlus} from "react-icons/bs";
 
-const Button =({Children, type, isDisabled}) => {
+const Button = ({ children, type, isDisabled }) => {    
     return(
     <button type ={type} disabled={isDisabled} className="btn">
-        <BsPlus fontSize="52px"/> {Children}
+        <BsPlus fontSize="52px"/> {children}
         </button>
         )
 }

@@ -5,9 +5,7 @@ import './App.css'; // Import the CSS file
 
 function App() {
   return (
-<>   <Home/>
-     <Item todo={todoData[0]}/> 
-     </> 
+    <Home /> // Only render Home
   )
 }
 
